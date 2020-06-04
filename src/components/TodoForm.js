@@ -9,7 +9,6 @@ class TodoForm extends React.Component {
 		};
 	}
 	handleChanges = (e) => {
-		console.log(e.target.value);
 		this.setState({ todo: e.target.value });
 		// update state with each keystroke
 	};
